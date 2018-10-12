@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    font-weight: 300;
+}
+
+a {
+    color: #000000;
+}
+
+header {
+    padding: 2em;
+    background-color: #aaaaaa;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    margin: 0 1em;
+}
+
+main {
+    flex-grow: 1;
+    padding: 2em;
+}
+
+footer {
+    padding: 1em;
+    background-color: #aaaaaa;
+    text-align: center;
+}
+
+
+.list .buttons {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 0.5em;
+}
+.list .buttons > * {
+    margin-right: 0.25em;
+}
+
+.twocol {
+    display: flex;
+    justify-content: space-between;
+}
